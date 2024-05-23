@@ -43,6 +43,6 @@ driver.quit()
 
 # Write the links to an Excel file
 df = pd.DataFrame(product_links, columns=['Product Link'])
-df.to_excel('jimmy_key_products.xlsx', index=False)
+df.to_excel('yourexcelfilename.xlsx', index=False) #your excel file name
 
 print('Product links have been successfully saved to the Excel file.')
