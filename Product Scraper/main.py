@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Start the WebDriver
+#If you want, you can use headless mode to make it run faster.
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 # Create a list to collect product links
